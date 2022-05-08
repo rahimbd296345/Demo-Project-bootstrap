@@ -1,0 +1,102 @@
+/* Droid Sans font add */
+$fontPath : "../css/fonts";
+@font-face{
+  font-family: 'Nexa';
+  src: url('#{$fontPath}/Nexa Bold.otf') format('otf'),
+   url('#{$fontPath}/Nexa Book Italic.otf') format('otf'),
+   url('#{$fontPath}/Nexa Heavy.otf') format('otf'),
+   url('#{$fontPath}/Nexa Light.otf') format('otf'),
+   url('#{$fontPath}/Nexa Regular.otf') format('otf'),
+}
+
+@font-face {
+    font-family: 'NexaHeavy';
+    src: url('#{$fontPath}/NexaHeavy.eot');
+    src: url('#{$fontPath}/NexaHeavy.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontPath}/NexaHeavy.woff2') format('woff2'),
+        url('#{$fontPath}/NexaHeavy.woff') format('woff'),
+        url('#{$fontPath}/NexaHeavy.ttf') format('truetype'),
+        url('#{$fontPath}/NexaHeavy.svg#NexaHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaRegular';
+    src: url('#{$fontPath}/NexaRegular.eot');
+    src: url('#{$fontPath}/NexaRegular.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontPath}/NexaRegular.woff2') format('woff2'),
+        url('#{$fontPath}/NexaRegular.woff') format('woff'),
+        url('#{$fontPath}/NexaRegular.ttf') format('truetype'),
+        url('#{$fontPath}/NexaRegular.svg#NexaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('#{$fontPath}/Nexa-Bold.eot');
+    src: url('#{$fontPath}/Nexa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontPath}/Nexa-Bold.woff2') format('woff2'),
+        url('#{$fontPath}/Nexa-Bold.woff') format('woff'),
+        url('#{$fontPath}/Nexa-Bold.ttf') format('truetype'),
+        url('#{$fontPath}/Nexa-Bold.svg#Nexa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa-Book';
+    src: url('#{$fontPath}/Nexa-Book-Italic.eot');
+    src: url('#{$fontPath}/Nexa-Book-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontPath}/Nexa-Book-Italic.woff2') format('woff2'),
+        url('#{$fontPath}/Nexa-Book-Italic.woff') format('woff'),
+        url('#{$fontPath}/Nexa-Book-Italic.ttf') format('truetype'),
+        url('#{$fontPath}/Nexa-Book-Italic.svg#Nexa-Book-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('#{$fontPath}/Nexa-Light.eot');
+    src: url('#{$fontPath}/Nexa-Light.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontPath}/Nexa-Light.woff2') format('woff2'),
+        url('#{$fontPath}/Nexa-Light.woff') format('woff'),
+        url('#{$fontPath}/Nexa-Light.ttf') format('truetype'),
+        url('#{$fontPath}/Nexa-Light.svg#Nexa-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+/* HELPER CLASS
+ * -------------------------- */
+
+a{
+  font-size: $base-font-size;
+}
+
+
+a, input[type=text], .btn, .menu-icon .fa, img, .top-delivey-services, .header.menu-opened .top-delivey-services {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn, .btn.focus, .btn:focus, a:hover, a:focus, a:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1185px;
+}
+
+
+
+
+
